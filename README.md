@@ -129,10 +129,88 @@ Resultado final no Lovable: https://finchat-dialogue.lovable.app
 <img width="550" height="1040" alt="image" src="https://github.com/user-attachments/assets/18978792-47db-45f1-92a9-6614cf8bd3f3" />
 <img width="550" height="1040" alt="image" src="https://github.com/user-attachments/assets/4bb0b4d7-b810-4016-a5cb-0f58174377b7" />
 
+# FinChat — Resumo de funcionalidades
 
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+O **FinChat** é um app mobile-first de finanças pessoais com foco em registrar receitas, despesas e metas por meio de uma experiência conversacional simples.
+
+## Funcionalidades principais
+
+### Chat financeiro
+- Registro de despesas e receitas por linguagem natural.
+- Exemplos:
+  - “gastei R$45 no almoço”
+  - “recebi R$3.200 de salário”
+- Identificação automática de valor, tipo da transação e categoria.
+- Confirmação visual da transação registrada.
+- Chips rápidos para ações como ver relatório, criar meta e receber dica do dia.
+
+### Dashboard mensal
+- Visão resumida do mês atual.
+- Cards com:
+  - Receitas
+  - Despesas
+  - Saldo
+- Lista das últimas transações.
+- Insights automáticos com base nos maiores gastos.
+- Seletor de mês para navegar entre períodos.
+
+### Relatórios
+- Gráfico de distribuição de gastos por categoria.
+- Evolução diária dos gastos no mês.
+- Métricas como total gasto e maior categoria.
+- Lista de transações agrupadas por data.
+- Filtros por categoria.
+- Botão de exportação em PDF com aviso de “Em breve”.
+
+### Metas financeiras
+- Criação e acompanhamento de metas.
+- Cards com:
+  - Emoji
+  - Título da meta
+  - Valor atual
+  - Valor alvo
+  - Progresso percentual
+  - Prazo
+- Ação para adicionar valor à meta.
+- Animação de comemoração ao concluir uma meta.
+- Opção para excluir metas.
+
+### Onboarding
+- Fluxo inicial simples em etapas.
+- Coleta de:
+  - Nome
+  - Renda mensal aproximada
+  - Categorias mais frequentes
+  - Objetivo financeiro
+- Demonstração de como registrar gastos pelo chat.
+- O onboarding aparece apenas na primeira experiência do usuário.
+
+## Experiência e design
+
+- Interface limpa, minimalista e mobile-first.
+- Layout otimizado para viewport de 390px.
+- Navegação inferior com quatro abas:
+  - Chat
+  - Dashboard
+  - Relatórios
+  - Metas
+- Design com destaque em verde/teal.
+- Componentes acessíveis com bons tamanhos de toque.
+- Suporte a preferências de redução de movimento.
+
+## Escopo técnico
+
+- App feito com React, TypeScript, Tailwind CSS e shadcn/ui.
+- Dados mockados e persistidos localmente.
+- Sem login, backend, banco de dados ou APIs reais.
+- Processamento de linguagem natural simulado com regras e padrões simples.
+
+## Reflexão
+
+### O que funcionou bem? 
+   Usar o Microsoft Copilot para refazer o PRD com mais detalhes precisos fez o Lovable criar em pouco tempo o app de acordo com o que foi pedido no PRD.
+### O que não funcionou como o esperado?
+   O Lovable fez o app com um erro que estava reiniciando o processo de onboarding. Mas foi possível corrigir esse com um prompt no próprio Lovable.
+### O que aprendeu sobre conversar com IAs?
+   Aprendi que usando a linguagem natural e prompts detalhados com descrições precisas, é possível colocar em prática o vibe coding para criar softwares funcionais de uma maneira muito mais fácil.
 
